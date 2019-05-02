@@ -1,0 +1,23 @@
+# Language file used for messages
+language-file: "lang-en.yml"
+
+# Minimum tries needed to spawn the kraken
+tries: 50
+
+# The kraken's max health
+health: 50.0
+
+# The kraken's name
+name: "The Kraken"
+
+# How often to attack (in seconds)
+attack-interval: 1
+
+# Damage to deal per attack
+attack-damage: 1.0
+
+# Enable global effects
+global-effects: false
+
+# Allow players to escape the kraken
+allow-escape: false

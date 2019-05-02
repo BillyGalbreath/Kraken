@@ -1,0 +1,24 @@
+name: "${project.artifactId}"
+main: "${project.groupId}.${project.artifactId}"
+version: "${project.version}"
+description: "Unleash the Kraken!"
+authors: ["nossr50", "BillyGalbreath"]
+api-version: "1.13"
+
+commands:
+  kraken:
+    description: Unleash the kraken!
+    permission: commands.kraken
+
+permissions:
+  command.kraken:
+    description: Allows access to the kraken command
+    default: op
+  command.kraken.others:
+    description: Allows access to the kraken command for other players
+    default: op
+    children:
+      command.kraken: true
+  bypass.kraken:
+    description: Allows user to bypass the effects of the exploit prevention when Fishing
+    default: false

@@ -1,0 +1,8 @@
+command-no-permission: "&4You do not have permission for that command"
+player-command: "&4That command is only available to players"
+player-not-online: "&4That player is not online right now"
+
+broadcast-unleashed: "&b{player} has unleashed the kraken!"
+unleashed: "&aTHE KRAKEN HAS BEEN UNLEASHED!"
+defeated: "&aYou have slain the kraken!"
+escaped: "&aYou have escaped from the kraken!"
