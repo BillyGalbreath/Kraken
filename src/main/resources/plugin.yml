@@ -8,7 +8,7 @@ api-version: "1.13"
 commands:
   kraken:
     description: Unleash the kraken!
-    permission: commands.kraken
+    permission: command.kraken
 
 permissions:
   command.kraken:
