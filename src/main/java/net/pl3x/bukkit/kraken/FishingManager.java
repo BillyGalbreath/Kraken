@@ -3,6 +3,7 @@ package net.pl3x.bukkit.kraken;
 import net.pl3x.bukkit.kraken.configuration.Config;
 import net.pl3x.bukkit.kraken.configuration.Lang;
 import net.pl3x.bukkit.kraken.task.KrakenAttackTask;
+import net.pl3x.bukkit.kraken.util.LootTableUtil;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.Sound;
@@ -86,6 +87,7 @@ public class FishingManager {
 
         LivingEntity kraken = (LivingEntity) world.spawnEntity(player.getEyeLocation(), (random.nextInt(100) == 0 ? EntityType.CHICKEN : EntityType.SQUID));
         kraken.setCustomName(Config.NAME);
+        LootTableUtil.setLootTable(kraken, Config.LOOT_TABLE);
 
         int attackInterval = Config.ATTACK_INTERVAL * 20;
 

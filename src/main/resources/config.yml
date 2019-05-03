@@ -21,3 +21,6 @@ global-effects: false
 
 # Allow players to escape the kraken
 allow-escape: false
+
+# Set the loot table for the kraken
+loot-table: "minecraft:squid"

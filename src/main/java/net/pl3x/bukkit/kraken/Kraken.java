@@ -18,6 +18,8 @@ public class Kraken extends JavaPlugin {
     }
 
     public void onEnable() {
+        saveResource("kraken-datapack.zip", false);
+
         Config.reload(this);
         Lang.reload(this);
 

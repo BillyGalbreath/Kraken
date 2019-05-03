@@ -13,6 +13,7 @@ public class Config {
     public static double ATTACK_DAMAGE;
     public static boolean GLOBAL_EFFECTS;
     public static boolean ALLOW_ESCAPE;
+    public static String LOOT_TABLE;
 
     public static void reload(Plugin plugin) {
         plugin.saveDefaultConfig();
@@ -28,5 +29,6 @@ public class Config {
         ATTACK_DAMAGE = config.getDouble("attack-damage", 1.0);
         GLOBAL_EFFECTS = config.getBoolean("global-effects", false);
         ALLOW_ESCAPE = config.getBoolean("allow-escape", false);
+        LOOT_TABLE = config.getString("loot-table", "minecraft:squid");
     }
 }
