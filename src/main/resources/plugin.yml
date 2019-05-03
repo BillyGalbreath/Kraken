@@ -2,7 +2,7 @@ name: "${project.artifactId}"
 main: "${project.groupId}.${project.artifactId}"
 version: "${project.version}"
 description: "Unleash the Kraken!"
-authors: ["nossr50", "BillyGalbreath"]
+authors: ["gmcferrin", "t00thpick1", "nossr50", "BillyGalbreath"]
 api-version: "1.13"
 
 commands:
